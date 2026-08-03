@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Reg Form</title>
+</head>
+
+<body>
+    <h1>Employee Registartion Form</h1>
+    <form action="welcome.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label>Full Name:</label>
+            <input type="text" required />
+            <br />
+            <br />
+
+            <label>Employee ID:</label>
+            <input type="tel" />
+            <br />
+            <br />
+
+            <label>Department:</label>
+            <select>
+                <optgroup label="Core Corporate dept.">
+                    <option>Human Resource(HR)</option>
+                    <option>Finance and Accounting</option>
+                    <option>Sales and Marketing</option>
+                    <option>Operations</option>
+                    <option>IT</option>
+                </optgroup>
+                <optgroup label="Specialized Units">
+                    <option>Customer Support</option>
+                    <option>Research and Development</option>
+                    <option>Legal and Compliance</option>
+                </optgroup>
+            </select>
+            <br />
+            <br />
+
+            <label>Designation:</label>
+            <input type="text" />
+            <br />
+            <br />
+
+            <label>Employment type:</label>
+            <input list="type" />
+            <datalist id="type">
+                <option>Permanent</option>
+                <option>Contract</option>
+                <option>Intern</option>
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label>Email Address:</label>
+            <input type="email" />
+            <br />
+            <br />
+
+            <label>Gender:</label>
+            <input type="radio" /><label>Male</label> <input type="radio" /><label>Female</label><input
+                type="radio" /><label>other</label>
+            <br />
+            <br />
+
+            <label>Phone Number:</label>
+            <input type="tel" />
+            <br />
+            <br />
+
+            <label>Date of Birth:</label>
+            <input type="date" />
+            <br />
+            <br />
+
+            <label>Maritial Status:</label>
+            <input type="radio" /><label>Married</label><input type="radio" /><label>Single</label>
+            <br />
+            <br />
+
+            <label>Residential Address:</label><br />
+            <textarea rows="4" cols="35"></textarea>
+            <br />
+            <br />
+
+        </fieldset>
+        <fieldset>
+            <legend>Form Controls</legend>
+
+            <button onclick="sub()">Click Me</button>
+            <input type="image" src="butterfly.png" alt="Register Now" height="50" width="50" />
+            <br /><br />
+
+            <input type="submit" />
+            <br /><br />
+
+            <input type="reset" />
+            <br /><br />
+        </fieldset>
+    </form>
+    <script>
+        function sub() {
+
+        }
+    </script>
+
+</body>
+
+</html>
