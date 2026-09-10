@@ -1,0 +1,94 @@
+body {
+    background-color: lightgrey;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header {
+    display: flex;
+    background-color: #2F2FE4;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+    align-items: center;
+}
+
+header .top-nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: #1DCED8;
+}
+
+header .top-nav a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: black;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    min-height: calc(100vh-50px);
+    background: #D51C39;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    background-color: #C8DFDB;
+    padding: 10px;
+}
+
+.sidebar a:hover {
+    background: black;
+    color: cyan;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    background: #2F2FE4;
+    color: whitesmoke;
+    padding: 10px 0;
+}
