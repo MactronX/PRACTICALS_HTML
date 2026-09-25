@@ -1,0 +1,47 @@
+body {
+    background-color: #A77F60;
+    margin: 0px;
+}
+
+header {
+    background-color: #1B2CC1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(37, 37, 154);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #8ECA3C;
+    padding: 10px;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+    color: #450C3F;
+
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #828b92;
+}
+
+footer {
+    background-color: #1B2CC1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
